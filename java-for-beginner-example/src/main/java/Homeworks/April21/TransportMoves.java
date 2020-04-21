@@ -1,8 +1,8 @@
-package lesson;
+package Homeworks.April21;
 
-import object.Bus;
-import object.Car;
-import object.Truck;
+import Homeworks.April21.Bus;
+import Homeworks.April21.Car;
+import Homeworks.April21.Truck;
 
 public class TransportMoves {
     public static void transportMoves() {

@@ -1,5 +1,4 @@
-import lesson.InheritLesson;
-import lesson.TransportMoves;
+import Homeworks.April21.TransportMoves;
 
 /**
  * Класс содержащий main метод.

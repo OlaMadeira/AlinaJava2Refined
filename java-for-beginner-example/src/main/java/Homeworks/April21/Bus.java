@@ -1,4 +1,6 @@
-package object;
+package Homeworks.April21;
+
+import Homeworks.April21.TransportMeans;
 
 public class Bus extends TransportMeans {
     public String name;
