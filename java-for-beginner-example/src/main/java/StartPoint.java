@@ -1,4 +1,5 @@
 import lesson.InheritLesson;
+import lesson.TransportMoves;
 
 /**
  * Класс содержащий main метод.
@@ -22,8 +23,9 @@ public class StartPoint
         //NullLesson.startLessonExample();//09.04.2020
         //ConstructorLesson.startLessonExample();
         //EqualsLesson.startLessonExample();
+        //InheritLesson.startLessonExample();
 
-        InheritLesson.startLessonExample();
+        TransportMoves.transportMoves();
 
         //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()
     }
