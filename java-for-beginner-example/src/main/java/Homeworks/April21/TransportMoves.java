@@ -1,9 +1,5 @@
 package Homeworks.April21;
 
-import Homeworks.April21.Bus;
-import Homeworks.April21.Car;
-import Homeworks.April21.Truck;
-
 public class TransportMoves {
     public static void transportMoves() {
         Car car = new Car("Жигули");

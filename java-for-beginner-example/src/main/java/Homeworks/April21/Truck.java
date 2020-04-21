@@ -1,7 +1,5 @@
 package Homeworks.April21;
 
-import Homeworks.April21.TransportMeans;
-
 public class Truck extends TransportMeans {
     public String name;
 
