@@ -1,4 +1,4 @@
-import Homeworks.April21.TransportMoves;
+import static HomeWork.April14.StreetArray.StreetBuilder;
 
 /**
  * Класс содержащий main метод.
@@ -23,8 +23,8 @@ public class StartPoint
         //ConstructorLesson.startLessonExample();
         //EqualsLesson.startLessonExample();
         //InheritLesson.startLessonExample();
-
-        TransportMoves.transportMoves();
+        //TransportMoves.transportMoves();
+        StreetBuilder();
 
         //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()
     }
