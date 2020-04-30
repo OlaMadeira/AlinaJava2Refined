@@ -1,5 +1,7 @@
 package HomeWork.April14;
 
+import java.util.Objects;
+
 public class Street extends Object{
 
     private String name;
@@ -25,4 +27,15 @@ public class Street extends Object{
                 "name='" + name + '\'' +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Street street = (Street) o;
+        return Objects.equals(name, street.name) &&
+                Objects.equals(description, street.description) &&
+                Objects.equals(key, street.key);
+    }
+
 }

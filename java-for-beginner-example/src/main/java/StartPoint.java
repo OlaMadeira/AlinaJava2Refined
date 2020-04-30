@@ -1,4 +1,9 @@
+import HomeWork.April14.Street;
+import lesson.TryCatchLesson;
+
 import static HomeWork.April14.StreetArray.StreetBuilder;
+import static lesson.TryCatchLesson.doHomework;
+import static lesson.TryCatchLesson.filterOnlySheep;
 
 /**
  * Класс содержащий main метод.
@@ -24,9 +29,12 @@ public class StartPoint
         //EqualsLesson.startLessonExample();
         //InheritLesson.startLessonExample();
         //TransportMoves.transportMoves();
-        StreetBuilder();
+        //StreetBuilder();
+        //checkStreetCopiesCount();
+        //filterOnlySheep();
+        TryCatchLesson.doHomework();
 
-        //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()
+
     }
 
 }

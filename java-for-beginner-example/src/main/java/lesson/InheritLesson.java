@@ -26,7 +26,7 @@ public class InheritLesson
         Animal animal1 = new Tiger();
 
         // не связанный пример
-        // Используется массив экземпляров классов Street как поле экземпляра класса City
+        // используется массив экземпляров классов Street как поле экземпляра класса City
         exampleCityFields();
     }
 

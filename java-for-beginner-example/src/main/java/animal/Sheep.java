@@ -14,7 +14,7 @@ public class Sheep extends Animal
     public Sheep()
     {
         super();
-        System.out.println("Hi!! Sheep constructor");
+        //System.out.println("Hi!! Sheep constructor");
     }
 
     public Sheep(String newName, int countLegs)

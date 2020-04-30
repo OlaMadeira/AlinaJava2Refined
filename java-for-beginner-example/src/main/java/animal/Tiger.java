@@ -13,6 +13,10 @@ public class Tiger extends Animal
      */
     public String name = "(empty)";
 
+    public Tiger(String name) {
+        this.name = name;
+    }
+
     private int kittenCount = 0;
 
     /**
