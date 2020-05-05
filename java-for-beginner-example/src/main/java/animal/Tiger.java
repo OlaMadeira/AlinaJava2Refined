@@ -27,6 +27,12 @@ public class Tiger extends Animal
         tigerCounter = tigerCounter + 1;
     }
 
+    @Override
+    public boolean isCanSpeak()
+    {
+        return false;
+    }
+
     /**
      * Увеличиваем значение kittenCount
      */

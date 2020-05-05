@@ -1,4 +1,4 @@
-import lesson.TryCatchLesson;
+import lesson.InterfaceLesson;
 
 /**
  * Класс содержащий main метод.
@@ -23,13 +23,13 @@ public class StartPoint
         //ConstructorLesson.startLessonExample();
         //EqualsLesson.startLessonExample();
         //InheritLesson.startLessonExample();
-        //TransportMoves.transportMoves();
-        //StreetBuilder();
-        //checkStreetCopiesCount();
-        //filterOnlySheep();
-        //TryCatchLesson.findSheepFinal();
+
+        //TryCatchLesson.startLessonExample();
+        //AbstractClassLesson.startLessonExample();
+        InterfaceLesson.startLessonExample();
 
 
+        //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()
     }
 
 }
