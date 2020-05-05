@@ -1,8 +1,11 @@
 package object.transport;
 
-public class Car implements EngineVehicle, SaleObject
+import homeworkApril30.Repairable;
+
+public class Car implements EngineVehicle, SaleObject, Repairable
 {
     private boolean isCarEngineEnable = false;
+    public boolean isNeedRepair = true;
 
 
     @Override
@@ -33,5 +36,22 @@ public class Car implements EngineVehicle, SaleObject
     public int getCurrentPrice()
     {
         return 100;
+    }
+
+    @Override
+    public void repair(int cash) {
+        if (cash>10) {
+            System.out.println("Отремонтировано");
+            isNeedRepair = false;
+        }
+        else {
+            System.out.println("Недостаточно денег");
+        }
+
+    }
+
+    @Override
+    public boolean isNeedToRepair() {
+        return false;
     }
 }

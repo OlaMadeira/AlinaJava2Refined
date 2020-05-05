@@ -1,16 +1,22 @@
 package object.transport;
 
+import homeworkApril30.Repairable;
 import object.MoveObject;
 
-public class Plane implements EngineVehicle, SaleObject, MoveObject
+public class Plane implements EngineVehicle, SaleObject, MoveObject, Repairable
 {
     private boolean isEnableLeftPlaneEngine = false;
     private boolean isEnableRightPlaneEngine = false;
+
 
     private int price = 100000000;
     private int workHours = 0;
 
     private int distance = 0;
+
+    //переменные из дз
+    public boolean isNeedRepair = true;
+    public int costOfRepair=500;
 
     public Plane()
     {
@@ -74,4 +80,21 @@ public class Plane implements EngineVehicle, SaleObject, MoveObject
     {
         return distance;
     }
+
+    @Override
+    public void repair(int cash) {
+        if (cash >= costOfRepair) {
+            System.out.println("Внесенной суммы хватает на ремонт");
+            isNeedRepair = false;
+        } else {
+            System.out.println("Внесенной суммы хватает на ремонт");
+            costOfRepair = costOfRepair-cash;
+        }
+    }
+
+    @Override
+    public boolean isNeedToRepair() {
+            return false;
+        }
+
 }

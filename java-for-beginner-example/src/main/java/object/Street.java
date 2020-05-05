@@ -1,8 +1,13 @@
 package object;
 
-public class Street
+import homeworkApril30.Repairable;
+
+public class Street implements Repairable
 {
     private String name;
+
+    public Street() {
+    }
 
     public Street(String streetName)
     {
@@ -17,5 +22,13 @@ public class Street
     }
 
 
+    @Override
+    public void repair(int cash) {
+        System.out.println("Не хватает денег");
+    }
 
+    @Override
+    public boolean isNeedToRepair() {
+        return false;
+    }
 }

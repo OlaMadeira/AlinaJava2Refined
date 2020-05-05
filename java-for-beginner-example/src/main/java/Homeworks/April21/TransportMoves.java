@@ -2,9 +2,9 @@ package Homeworks.April21;
 
 public class TransportMoves {
     public static void transportMoves() {
-        Car car = new Car("Жигули");
-        car.drive();
-        car.stop();
+        Automobile automobile = new Automobile("Жигули");
+        automobile.drive();
+        automobile.stop();
 
         Truck truck = new Truck("Фура");
         truck.drive();

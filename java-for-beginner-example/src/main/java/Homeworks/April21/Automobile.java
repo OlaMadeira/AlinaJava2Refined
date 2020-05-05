@@ -1,9 +1,9 @@
 package Homeworks.April21;
 
-public class Car extends TransportMeans {
+public class Automobile extends TransportMeans {
    public String name;
 
-    public Car(String name) {
+    public Automobile(String name) {
         this.name = name;
     }
 
