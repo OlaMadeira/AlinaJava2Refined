@@ -87,7 +87,7 @@ public class Plane implements EngineVehicle, SaleObject, MoveObject, Repairable
             System.out.println("Внесенной суммы хватает на ремонт");
             isNeedRepair = false;
         } else {
-            System.out.println("Внесенной суммы хватает на ремонт");
+            System.out.println("Внесенной суммы на ремонт не хватает");
             costOfRepair = costOfRepair-cash;
         }
     }

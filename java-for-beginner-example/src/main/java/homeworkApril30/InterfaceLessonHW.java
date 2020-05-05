@@ -11,9 +11,8 @@ public class InterfaceLessonHW {
         for (Repairable repairable : repairables) {
             if (repairable instanceof Plane) {
                 Plane currentPlane = (Plane)repairable;
+                currentPlane.repair(4000);
                 currentPlane.isNeedToRepair();
-                currentPlane.repair(400);
-                System.out.println(cash);
             }
         }
     }
