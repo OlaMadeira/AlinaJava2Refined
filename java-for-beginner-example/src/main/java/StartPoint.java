@@ -22,7 +22,6 @@ public class StartPoint
         //ConstructorLesson.startLessonExample();
         //EqualsLesson.startLessonExample();
         //InheritLesson.startLessonExample();
-
         //TryCatchLesson.startLessonExample();
         //AbstractClassLesson.startLessonExample();
         //InterfaceLesson.startLessonExample();

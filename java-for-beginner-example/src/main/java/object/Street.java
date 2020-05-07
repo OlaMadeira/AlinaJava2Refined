@@ -24,7 +24,7 @@ public class Street implements Repairable
 
     @Override
     public void repair(int cash) {
-        System.out.println("Не хватает денег");
+        System.out.println("На ремонт улицы не хватает денег");
     }
 
     @Override

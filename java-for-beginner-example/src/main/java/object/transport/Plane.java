@@ -83,11 +83,11 @@ public class Plane implements EngineVehicle, SaleObject, MoveObject, Repairable
 
     @Override
     public void repair(int cash) {
-        if (cash >= costOfRepair) {
-            System.out.println("Внесенной суммы хватает на ремонт");
+        if (cash >= costOfRepair && isNeedRepair) {
+            System.out.println("Внесенной суммы хватит на ремонт Самолета");
             isNeedRepair = false;
         } else {
-            System.out.println("Внесенной суммы на ремонт не хватает");
+            System.out.println("Внесенной суммы на ремонт Самолета не хватает");
             costOfRepair = costOfRepair-cash;
         }
     }

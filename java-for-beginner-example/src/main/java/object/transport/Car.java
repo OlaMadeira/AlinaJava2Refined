@@ -41,11 +41,11 @@ public class Car implements EngineVehicle, SaleObject, Repairable
     @Override
     public void repair(int cash) {
         if (cash>10) {
-            System.out.println("Отремонтировано");
+            System.out.println("Машина Отремонтирована");
             isNeedRepair = false;
         }
         else {
-            System.out.println("Недостаточно денег");
+            System.out.println("Недостаточно денег на ремонт машины");
         }
 
     }

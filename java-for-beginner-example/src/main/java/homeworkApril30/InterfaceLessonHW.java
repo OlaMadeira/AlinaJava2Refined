@@ -7,13 +7,24 @@ import object.transport.Plane;
 public class InterfaceLessonHW {
     public static void run() {
         int cash = 100000;
-        Repairable[] repairables = new Repairable[] { new Car(), new Street(), new Plane() };
-        for (Repairable repairable : repairables) {
-            if (repairable instanceof Plane) {
-                Plane currentPlane = (Plane)repairable;
+        Repairable[] repairables = new Repairable[]{new Car(), new Street(), new Plane()};
+        for (Repairable repairableObject : repairables) {
+            if (repairableObject instanceof Plane) {
+
+                Plane currentPlane = (Plane) repairableObject;
                 currentPlane.repair(4000);
-                currentPlane.isNeedToRepair();
             }
+
+        if ( repairableObject instanceof Car){
+            Car currentCar = (Car) repairableObject;
+            currentCar.repair(400);
         }
+            if ( repairableObject instanceof Street){
+                Street currentStreet = (Street) repairableObject;
+                currentStreet.repair(400);
+            }
+
+        }
+
     }
 }
