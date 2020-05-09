@@ -12,16 +12,16 @@ public class InterfaceLessonHW {
             if (repairableObject instanceof Plane && ((Plane) repairableObject).isNeedRepair) {
 
                 Plane currentPlane = (Plane) repairableObject;
-                currentPlane.repair(100);
+                currentPlane.repair(cash);
             }
 
         if ( repairableObject instanceof Car && ((Car) repairableObject).isNeedRepair){
             Car currentCar = (Car) repairableObject;
-            currentCar.repair(20);
+            currentCar.repair(cash);
         }
             if ( repairableObject instanceof Street && repairableObject.isNeedToRepair()){
                 Street currentStreet = (Street) repairableObject;
-                currentStreet.repair(900);
+                currentStreet.repair(cash);
             }
 
         }

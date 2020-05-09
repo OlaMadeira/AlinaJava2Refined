@@ -1,3 +1,5 @@
+import homeworkApril30.InterfaceLessonHW;
+import lesson.ArrayListLesson;
 import lesson.InterfaceLesson;
 
 /**
@@ -26,7 +28,9 @@ public class StartPoint
 
         //TryCatchLesson.startLessonExample();
         //AbstractClassLesson.startLessonExample();
-        InterfaceLesson.startLessonExample();
+        //InterfaceLesson.startLessonExample();
+        //ArrayListLesson.startLessonExample();
+        InterfaceLessonHW.run();
 
 
         //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()

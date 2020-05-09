@@ -35,7 +35,7 @@ public class ArrayListLesson
         System.out.println(arrayList + " " + arrayList.size());
         arrayList.add(new Cat());
         System.out.println(arrayList + " " + arrayList.size());
-        for (int i = 0; i<1000000; i++)
+        for (int i = 0; i<100; i++)
         {
             arrayList.add(new Cat());
         }
@@ -44,7 +44,7 @@ public class ArrayListLesson
 
         Object[] objects = new Object[2];
         objects[0] = new Object();
-        for (int i = 0; i< 100000; i++)
+        for (int i = 0; i< 100; i++)
         {
             Object[] oldAArray = objects;
             objects = new Object[oldAArray.length +1];
