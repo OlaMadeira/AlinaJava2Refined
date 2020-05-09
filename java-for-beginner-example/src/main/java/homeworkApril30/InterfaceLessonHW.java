@@ -9,19 +9,19 @@ public class InterfaceLessonHW {
         int cash = 100000;
         Repairable[] repairables = new Repairable[]{new Car(), new Street(), new Plane()};
         for (Repairable repairableObject : repairables) {
-            if (repairableObject instanceof Plane) {
+            if (repairableObject instanceof Plane && ((Plane) repairableObject).isNeedRepair) {
 
                 Plane currentPlane = (Plane) repairableObject;
-                currentPlane.repair(4000);
+                currentPlane.repair(100);
             }
 
-        if ( repairableObject instanceof Car){
+        if ( repairableObject instanceof Car && ((Car) repairableObject).isNeedRepair){
             Car currentCar = (Car) repairableObject;
-            currentCar.repair(400);
+            currentCar.repair(20);
         }
-            if ( repairableObject instanceof Street){
+            if ( repairableObject instanceof Street && repairableObject.isNeedToRepair()){
                 Street currentStreet = (Street) repairableObject;
-                currentStreet.repair(400);
+                currentStreet.repair(900);
             }
 
         }
