@@ -3,7 +3,6 @@ package homeworkApril30;
 import object.Street;
 import object.transport.Car;
 import object.transport.Plane;
-import org.w3c.dom.ls.LSOutput;
 
 public class InterfaceLessonHW {
     public static void run() {
