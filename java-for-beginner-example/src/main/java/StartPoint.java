@@ -1,3 +1,4 @@
+import HomeWorkMay07.SheepArray;
 import homeworkApril30.InterfaceLessonHW;
 import lesson.ArrayListLesson;
 import lesson.InterfaceLesson;
@@ -30,7 +31,8 @@ public class StartPoint
         //AbstractClassLesson.startLessonExample();
         //InterfaceLesson.startLessonExample();
         //ArrayListLesson.startLessonExample();
-        InterfaceLessonHW.run();
+        //InterfaceLessonHW.run();
+        SheepArray.sheepArray();
 
 
         //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()
